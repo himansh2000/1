@@ -1,4 +1,4 @@
-name: inix-f
+name: inix-e
 
 on:
   schedule:
@@ -27,7 +27,7 @@ jobs:
        
 # creates accounts.json file to run Action
     - name: Setup accounts.json
-      run: mv f.json accounts.json
+      run: mv e.json accounts.json
 
 
 # Restoring Session folder 
